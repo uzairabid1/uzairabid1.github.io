@@ -1,34 +1,44 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Software Engineer (Backend, AWS & Cloud) @ <a href='https://wealthica.com/'>Wealthica</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_picture.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📞 <a href="https://wa.me/923350327981" style="color: inherit; text-decoration: underline;">+92 (335) 0327981</a></p>
+    <p>📧 <a href="mailto:uzairabid222@gmail.com" style="color: inherit; text-decoration: underline;">uzairabid222@gmail.com</a></p>
+    <p>🌐 <a href="https://www.linkedin.com/in/uzair-abid-339ab11b3/" style="color: inherit; text-decoration: underline;">linkedin.com/in/uzair-abid-339ab11b3/</a></p>
+    <p>🐙 <a href="https://github.com/uzairabid1" style="color: inherit; text-decoration: underline;">github.com/uzairabid1</a></p>
+    <p>🤗 <a href="https://huggingface.co/uzairabid1" style="color: inherit; text-decoration: underline;">huggingface.co/uzairabid1</a></p>
+    <p>📝 <a href="https://medium.com/@uzairabid222" style="color: inherit; text-decoration: underline;">medium.com/@uzairabid222</a></p>
+    <p>🏠 Karachi, Pakistan</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+news: true # includes a list of news items
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I hold a Bachelor's degree in Computer Engineering from Sir Syed University of Engineering & Technology (SSUET) in Karachi, Pakistan. As a Software Engineer specializing in Backend development, AWS, and Cloud technologies, I am passionate about building scalable systems and exploring the frontiers of artificial intelligence.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, along with my work, I'm engaged in an ongoing research project with Dr. Boram Lim (former Prof. @ University of Kansas) on using Large Language Models to study consumer behavior, specifically exploring how different review algorithms affect restaurant selection decisions through AI agent simulations.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Research Interests
+
+I am passionate about **Natural Language Processing**, **Agentic AI**, and **Computer Vision**. My interests revolve around developing intelligent systems that can understand language, learn from data, and interact with the world in meaningful ways. I enjoy combining theory with practical applications and continue to explore research that bridges academic ideas with real world use cases.
+
+
+<div style="display: none;">
+    <a href="https://clustrmaps.com/site/" title="Visit tracker">
+        <img src="//clustrmaps.com/map_v2.js?d=Zb_hH21BM6grVAEPzfYJqGczBQLWbIoZR6zoRV0TidU" 
+             alt="Visitor Map" />
+    </a>
+</div>
+
