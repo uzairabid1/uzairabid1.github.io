@@ -12,7 +12,7 @@ nav_order: 4
 ### Using Large Language Models to Study Consumer Behavior: Review Algorithm Effects on Restaurant Selection
 **Co-Author · In-Progress**
 
-Working with Dr. Boram Lim (former Prof. @ University of Kansas) on a research project that uses AI agents powered by GPT models to simulate realistic customer decision-making in restaurant choice scenarios. The study explores how different review presentation algorithms (highest rated vs. most recent) and restaurant positioning (high-end vs. casual) affect consumer behavior. The system includes intelligent bias detection, dynamic review supplementation, and detailed behavioral logging.
+Working with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (former Prof. @ University of Kansas) on a research project that uses AI agents powered by GPT models to simulate realistic customer decision-making in restaurant choice scenarios. The study explores how different review presentation algorithms (highest rated vs. most recent) and restaurant positioning (high-end vs. casual) affect consumer behavior. The system includes intelligent bias detection, dynamic review supplementation, and detailed behavioral logging.
 
 **Keywords:** Large Language Models, Consumer Behavior, AI Agents, Decision Making, Restaurant Industry
 

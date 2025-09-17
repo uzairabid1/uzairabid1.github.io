@@ -28,7 +28,7 @@ social: false # includes social icons at the bottom of the page
 
 I hold a Bachelor's degree in Computer Engineering from Sir Syed University of Engineering & Technology (SSUET) in Karachi, Pakistan. As a Software Engineer specializing in Backend development, AWS, and Cloud technologies, I am passionate about building scalable systems and exploring the frontiers of artificial intelligence.
 
-Currently, along with my work, I'm engaged in an ongoing research project with Dr. Boram Lim (former Prof. @ University of Kansas) on using Large Language Models to study consumer behavior, specifically exploring how different review algorithms affect restaurant selection decisions through AI agent simulations.
+Currently, along with my work, I'm engaged in an ongoing research project with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (former Prof. @ University of Kansas) on using Large Language Models to study consumer behavior, specifically exploring how different review algorithms affect restaurant selection decisions through AI agent simulations.
 
 ## Research Interests
 
