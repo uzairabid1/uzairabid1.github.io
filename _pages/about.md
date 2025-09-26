@@ -32,7 +32,16 @@ Currently, along with my work, I'm engaged in an ongoing research project with <
 
 ## Research Interests
 
-I am passionate about **Natural Language Processing**, **Agentic AI**, and **Computer Vision**. My interests revolve around developing intelligent systems that can understand language, learn from data, and interact with the world in meaningful ways. I enjoy combining theory with practical applications and continue to explore research that bridges academic ideas with real world use cases.
+My research interests include:
+
+- **Natural Language Processing**
+- **Generative AI**
+- **Agentic AI**
+- **Computer Vision**
+- **Deep Learning**
+- **Reinforcement Learning**
+
+I am passionate about developing intelligent systems that can understand language, learn from data, and interact with the world in meaningful ways. I enjoy combining theory with practical applications and continue to explore research that bridges academic ideas with real world use cases.
 
 
 <div style="display: none;">
