@@ -111,7 +111,7 @@ html[data-theme="dark"] .project0:hover {
 }
 </style>
 
-## Teaching Experience
+## Teaching, Mentoring & Academic Service
 
 <div class="project0">
     <div class="image-container0">
@@ -130,7 +130,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/icodeguru.jpg" title="icodeguru" %}
+        {% include figure.liquid loading="eager" path="assets/img/icodeguru.png" title="icodeguru" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -141,6 +141,20 @@ html[data-theme="dark"] .project0:hover {
         <p>At ICodeGuru, we teach, train, mentor, and guide students from underprivileged areas of Pakistan to improve their professional skills. I taught coding to these students and helped them solve LeetCode problems, focusing on algorithmic thinking and problem-solving techniques.</p>
         <p>Checkout some of my live classes:</p>
         <a href="https://www.facebook.com/iCodeguru/videos/827891879496385"><button>Langchain Workshop</button></a>
+    </div>
+</div>
+
+<div class="project0">
+    <div class="image-container0">
+        {% include figure.liquid loading="eager" path="assets/img/workshop.png" title="North Dakota State University" %}
+    </div>
+    <div class="project-details0">
+        <div class="heading">
+        <h3><a href="https://www.ndsu.edu/">North Dakota State University</a></h3>
+        <span class="timeline">2025</span>
+        </div>
+        <p><strong>Volunteer &mdash; Curriculum Modernization</strong></p>
+        <p>Assisted Dr. M. Zubair Malik in modernizing <strong>CSCI 717 &ndash; Software Construction</strong>, integrating AI-driven development techniques and cloud computing (AWS) into the course so that the curriculum reflects current industry practice.</p>
     </div>
 </div>
 

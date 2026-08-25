@@ -11,8 +11,8 @@ cv_pdf: assets/pdf/Uzair_CV.pdf
 
 <center>
 <p><strong>Uzair Abid</strong></p>
-<p>Software Engineer (Backend, AWS & Cloud)</p>
-<p>Specialized in AI/ML, Cloud Architecture, and Backend Development</p>
+<p>Head of Web Data Acquisition @ Wealthica</p>
+<p>Applied AI &amp; LLM systems, backend engineering, and cloud architecture</p>
 </center>
 
 

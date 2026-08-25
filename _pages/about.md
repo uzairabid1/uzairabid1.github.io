@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer (Backend, AWS & Cloud) @ <a href='https://wealthica.com/'>Wealthica</a>
+subtitle: Head of Web Data Acquisition @ <a href='https://wealthica.com/'>Wealthica</a> | Applied AI &amp; LLM Systems
 
 profile:
   align: right
@@ -26,22 +26,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I hold a Bachelor's degree in Computer Engineering from Sir Syed University of Engineering & Technology (SSUET) in Karachi, Pakistan. As a Software Engineer specializing in Backend development, AWS, and Cloud technologies, I am passionate about building scalable systems and exploring the frontiers of artificial intelligence.
+I hold a Bachelor's degree in Computer Engineering from Sir Syed University of Engineering & Technology (SSUET) in Karachi, Pakistan. I currently serve as **Head of Web Data Acquisition** at <a href='https://wealthica.com/'>Wealthica</a> (Canada, remote), where I lead work on AI-powered auto-remediation, browser-automation platforms driven by custom ML models, and the backend services behind large-scale financial data pipelines.
 
-Currently, along with my work, I'm engaged in an ongoing research project with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (former Prof. @ University of Kansas) on using Large Language Models to study consumer behavior, specifically exploring how different review algorithms affect restaurant selection decisions through AI agent simulations.
+Alongside my engineering work, I am a co-author on an ongoing research project with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (formerly University of Kansas) that uses Large Language Models to study consumer behavior, specifically how review-presentation algorithms shape restaurant-selection decisions in agent-based simulations.
 
 ## Research Interests
 
-My research interests include:
-
 - **Natural Language Processing**
-- **Generative AI**
-- **Agentic AI**
-- **Computer Vision**
-- **Deep Learning**
-- **Reinforcement Learning**
+- **Large Language Models and Agentic AI**
+- **LLM-based simulation of human behavior**
+- **Computer Vision for edge deployment**
+- **Efficient training and inference** (PEFT, quantization)
+- **Evaluation and reliability of LLM systems**
 
-I am passionate about developing intelligent systems that can understand language, learn from data, and interact with the world in meaningful ways. I enjoy combining theory with practical applications and continue to explore research that bridges academic ideas with real world use cases.
+I am interested in building intelligent systems that understand language, learn from data, and act reliably in real-world settings. My goal for graduate study is to move from applied engineering toward rigorous research on how large language models can be evaluated, grounded, and used as instruments for studying human decision-making.
 
 
 <div style="display: none;">

@@ -101,6 +101,66 @@ html[data-theme="dark"] .project0:hover {
 }
 </style>
 
+## Research Experience
+
+<div class="project0">
+    <div class="image-container0">
+        {% include figure.liquid loading="eager" path="assets/img/7.png"%}
+    </div>
+    <div class="project-details0">
+        <div class="heading">
+        <h3>LLM Agents for Consumer Behavior Research</h3>
+        <span class="timeline">Ongoing</span>
+        </div>
+        <p>Role: <strong>Co-Author</strong>, with <a href="https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216">Dr. Boram Lim</a> (formerly University of Kansas)</p>
+        <p>Location: <strong>Remote</strong></p>
+        <p><b>Contributions:</b></p>
+        <ul>
+            <li>Designing an agent-based simulation framework in which GPT-powered agents make restaurant-choice decisions, enabling controlled experiments on consumer behavior at a scale that is infeasible with human subjects</li>
+            <li>Implementing a factorial experimental design over review-presentation algorithms (highest-rated vs. most-recent) and restaurant positioning (high-end vs. casual) to isolate their effects on choice</li>
+            <li>Built bias-detection and dynamic review-supplementation components to reduce systematic drift in agent responses, plus structured behavioral logging for quantitative analysis of decision traces</li>
+        </ul>
+    </div>
+</div>
+
+<div class="project0">
+    <div class="image-container0">
+        {% include figure.liquid loading="eager" path="assets/img/rhino.png"%}
+    </div>
+    <div class="project-details0">
+        <div class="heading">
+        <h3>Smart Shelf Advertising on Low-Cost Edge Devices</h3>
+        <span class="timeline">2024 - 2025</span>
+        </div>
+        <p>Role: <strong>Co-Author</strong></p>
+        <p>Location: <strong>Karachi, Pakistan</strong></p>
+        <p><b>Contributions:</b></p>
+        <ul>
+            <li>Developed a real-time retail system that detects product pick-up events and triggers contextual video advertisements, running end to end on low-cost edge hardware</li>
+            <li>Trained a custom YOLOv8 segmentation model on a self-collected dataset of 3,500+ images, achieving 97.4% mAP@0.5 with real-time inference on constrained devices</li>
+            <li>Integrated AprilTag-based tracking and Arduino-controlled lighting into a single pipeline, validating robustness under varied shelf and lighting conditions</li>
+        </ul>
+    </div>
+</div>
+
+<div class="project0">
+    <div class="image-container0">
+        {% include figure.liquid loading="eager" path="assets/img/ssuet.png"%}
+    </div>
+    <div class="project-details0">
+        <div class="heading">
+        <h3>Simulation Study on Edge-Cloud Traffic</h3>
+        <span class="timeline">2023</span>
+        </div>
+        <p>Role: <strong>Research Assistant</strong> to Engr. Muhammad Rehan Rasheed</p>
+        <p>Location: <strong>Sir Syed University, Karachi</strong></p>
+        <p><b>Contributions:</b></p>
+        <ul>
+            <li>Built a Java-based discrete simulation of edge-cloud environments to analyze traffic-management strategies and their effect on latency and throughput</li>
+        </ul>
+    </div>
+</div>
+
 ## Professional Experience
 
 <div class="project0">
@@ -112,15 +172,16 @@ html[data-theme="dark"] .project0:hover {
         <a href="https://wealthica.com/"><h3>Wealthica</h3></a>
         <span class="timeline">Jul 2024 - Present</span>
         </div>
-        <p>Position: <strong>Software Engineer (Backend, AWS & Cloud)</strong></p>
+        <p>Position: <strong>Head of Web Data Acquisition</strong> (promoted Jun 2025); previously <strong>Software Engineer</strong></p>
         <p>Employment Type: <strong>Full Time</strong></p>
         <p>Location: <strong>Canada (Remote)</strong></p>
         <p><b>Key Achievements:</b></p>
         <ul>
-            <li>Engineered robust backend systems using Node.js, TypeScript, and MongoDB powering scalable financial data pipelines at Wealthica</li>
-            <li>Improved application response times by 25% by replacing legacy caching with Valkey</li>
-            <li>Mitigated 30% request failures during peak hours by analyzing and implementing pre auto-scheduling with AWS CDK</li>
-            <li>Helped fintech clients like Questrade, Flinks, and white-label partners in API integration of Wealthica with secure auth flows and optimized data access</li>
+            <li>Architected an AI-powered auto-remediation platform (Claude API, GitHub Actions, RabbitMQ, SigNoz, Slack, ClickUp) that detects connector failures, scrubs PII, drafts pull requests, and applies path-restricted AI fixes through CI/CD, cutting manual triage time by 70% and issue resolution time by 50%</li>
+            <li>Built a browser-automation platform driven by a custom-trained ML model that parses web-page structure to automate data extraction, improving extraction efficiency by 35% and reducing manual effort by 60%</li>
+            <li>Engineered backend services in Node.js, TypeScript, MongoDB, Redis, Docker, and REST APIs powering scalable financial data pipelines</li>
+            <li>Eliminated 30% of peak-hour request failures by profiling load patterns and introducing predictive pre-scheduling of jobs with AWS CDK</li>
+            <li>Led API integrations for fintech partners including Questrade and Flinks, covering secure authentication flows and optimized data access</li>
         </ul>
     </div>
 </div>
@@ -134,15 +195,16 @@ html[data-theme="dark"] .project0:hover {
         <a href="#"><h3>AutomateBoring</h3></a>
         <span class="timeline">Jul 2023 - Jul 2024</span>
         </div>
-        <p>Position: <strong>Software Engineer (ML/AI & Backend)</strong></p>
+        <p>Position: <strong>Software Engineer (ML/AI &amp; Backend)</strong></p>
         <p>Employment Type: <strong>Full Time</strong></p>
         <p>Location: <strong>United States (Remote)</strong></p>
         <p><b>Key Achievements:</b></p>
         <ul>
-            <li>Automated the entire tax filing process of IRS using Django, AWS Lambda & EventBridge, improving efficiency by 40% and reducing errors by 25%</li>
-            <li>Implemented a customer-facing conversational bot powered using CrewAI and LangChain</li>
-            <li>Streamlined a secure upload and verification pipeline for driver's licenses, processing 500+ documents monthly with OCR</li>
-            <li>Deployed microservices application using AWS EC2, ASG and ELB with a CI/CD pipeline</li>
+            <li>Built retrieval-augmented generation (RAG) systems pairing embedding models with vector databases (Pinecone, FAISS) to ground LLM outputs in proprietary corpora, substantially reducing hallucination on knowledge-intensive tasks</li>
+            <li>Fine-tuned open-source LLMs with LoRA/QLoRA (PEFT) on curated instruction datasets, matching the quality of substantially larger models at a fraction of training and inference cost</li>
+            <li>Accelerated inference via 4-bit/8-bit quantization and vLLM-based serving, increasing throughput while reducing GPU memory footprint and latency in production</li>
+            <li>Developed computer-vision pipelines for object detection, segmentation (YOLOv8), and OCR in PyTorch, using mixed-precision and distributed (DDP) training to shorten experiment cycles</li>
+            <li>Established MLOps practice: experiment tracking (Weights &amp; Biases), automated evaluation harnesses with LLM-as-judge, model versioning, and CI/CD, enabling reproducible experiments and dependable releases</li>
         </ul>
     </div>
 </div>
@@ -157,13 +219,13 @@ html[data-theme="dark"] .project0:hover {
         <span class="timeline">Apr 2023 - Jul 2023</span>
         </div>
         <p>Position: <strong>AWS DevOps Engineer</strong></p>
-        <p>Employment Type: <strong>Contract</strong></p>        
+        <p>Employment Type: <strong>Contract</strong></p>
         <p>Location: <strong>United Kingdom (Remote)</strong></p>
         <p><b>Key Achievements:</b></p>
         <ul>
-            <li>Analyzed application performance using Datadog and Cloudwatch, detecting 15 issues that were promptly addressed, leading to a 25% reduction in user-reported incidents</li>
-            <li>Successfully migrated a three-tier app from Render to AWS with CI/CD using AWS CodePipeline, improving performance by 30% and reducing hosting costs by 20%</li>
-            <li>Deployed a machine learning model on AWS, building an end-to-end pipeline with model hosting, input preprocessing, and result handling using services like Lambda, S3, and API Gateway</li>
+            <li>Deployed a machine learning model on AWS as an end-to-end pipeline with model hosting, input pre-processing, and result handling using Lambda, S3, and API Gateway</li>
+            <li>Migrated a three-tier application from Render to AWS with CI/CD via CodePipeline, improving performance by 30% and reducing hosting costs by 20%</li>
+            <li>Instrumented observability with Datadog and CloudWatch, surfacing 15 latent issues and cutting user-reported incidents by 25%</li>
         </ul>
     </div>
 </div>
@@ -178,35 +240,31 @@ html[data-theme="dark"] .project0:hover {
         <span class="timeline">Jan 2023 - May 2023</span>
         </div>
         <p>Position: <strong>AWS DevOps Engineer</strong></p>
-        <p>Employment Type: <strong>Contract</strong></p>        
+        <p>Employment Type: <strong>Contract</strong></p>
         <p>Location: <strong>United States (Remote)</strong></p>
         <p><b>Key Achievements:</b></p>
         <ul>
-            <li>Developed and optimized microservices for a real estate application, integrating AWS services such as serverless Lambda, S3, and DynamoDB to improve scalability and reduce latency by 18%</li>
-            <li>Implemented CI/CD pipelines using AWS CodePipeline and CodeBuild, enabling automated testing, deployment, and rollback across multiple environments, cutting release times by 40%</li>
+            <li>Developed and optimized microservices for a real-estate platform using Lambda, S3, and DynamoDB, reducing latency by 18%</li>
+            <li>Implemented CI/CD pipelines (CodePipeline, CodeBuild) with automated testing, deployment, and rollback across environments, cutting release times by 40%</li>
         </ul>
     </div>
 </div>
 
-## Career Progression & Impact
+## Technical Skills
 
-### **Technical Skills Development**
-- **Backend Engineering**: Expertise in Node.js, TypeScript, Python, Django, Flask
-- **Cloud & DevOps**: Advanced AWS services, CI/CD pipelines, infrastructure automation
-- **AI/ML Integration**: LangChain, CrewAI, OpenAI APIs, document processing systems
-- **Database Management**: MongoDB, DynamoDB, SQL optimization
-- **Performance Optimization**: Caching strategies, load balancing, monitoring
+| Area | Tools & Technologies |
+| --- | --- |
+| **Languages** | Python, TypeScript/JavaScript, Java, SQL, Bash |
+| **ML & AI** | PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers, PEFT (LoRA/QLoRA), vLLM, LangChain, CrewAI, OpenCV, YOLOv8, Weights & Biases |
+| **LLM Systems** | RAG, vector databases (Pinecone, FAISS), quantization (4/8-bit), evaluation harnesses & LLM-as-judge, agentic workflows |
+| **Backend** | Node.js, Express.js, Nest.js, FastAPI, Django, Flask, MongoDB, Redis, DynamoDB, REST APIs |
+| **Cloud & DevOps** | AWS (Lambda, S3, EC2, DynamoDB, API Gateway, CDK, CodePipeline), Docker, Kubernetes, GitHub Actions, Datadog, SigNoz |
 
-### **Key Metrics & Achievements**
-- **Performance Improvements**: 25-40% efficiency gains across multiple projects
-- **Error Reduction**: 25-30% decrease in system failures and user-reported issues
-- **Cost Optimization**: 20% reduction in hosting costs through strategic migrations
-- **Scalability**: Built systems processing 500+ documents monthly
-- **Client Impact**: Supported major fintech clients including Questrade and Flinks
+## Impact Highlights
 
-### **Industry Experience**
-- **Fintech**: Financial data pipelines, secure payment processing, API integrations
-- **Tax Technology**: IRS automation, document verification, OCR processing
-- **Cloud Migration**: Multi-tier application transitions, performance optimization
-- **Real Estate Tech**: Microservices architecture, data processing pipelines
-
+- **AI-driven automation**: 70% reduction in manual triage time and 50% faster issue resolution through an autonomous remediation pipeline
+- **Data acquisition at scale**: 35% higher extraction efficiency and 60% less manual effort via ML-guided browser automation
+- **Reliability**: 30% fewer peak-hour request failures and 25% fewer user-reported incidents
+- **Efficiency**: 4/8-bit quantization and vLLM serving for higher throughput at lower GPU cost; 20% lower hosting costs after cloud migration
+- **Delivery**: 40% shorter release cycles through automated CI/CD with testing and rollback
+- **Domains**: fintech data pipelines, retail computer vision on edge devices, real-estate microservices, and LLM research tooling

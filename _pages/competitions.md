@@ -159,19 +159,17 @@ Received partial merit scholarship for five consecutive semesters by securing fi
 ### 🏅 **Government of Sindh Award (2017)**
 Awarded a monetary prize for achieving an A+ Grade in Matriculation. This early academic achievement laid the foundation for continued excellence in education and professional development.
 
-## Competition Statistics
+## Hackathon Project Themes
 
-### **Project Impact**
-- **Healthcare Innovation**: Developed AI assistants for medical decision-making
-- **Legal Technology**: Created automated legal document processing systems
-- **Content Automation**: Built multi-agent systems for content creation
-- **Data Analysis**: Implemented AI-powered data science tools
+- **Legal Technology**: automated summarization of long-form court hearings and legal proceedings
+- **Content Automation**: multi-agent pipelines for research, writing, and publishing
+- **Agentic AI**: orchestrating specialized agents with CrewAI and REST integrations
+- **Cloud AI Services**: building on Azure AI and AWS managed AI offerings
 
-### **Recognition Metrics**
-- **Academic Excellence**: 5 consecutive semesters of top performance
-- **Professional Recognition**: Top-rated status on major freelancing platforms
-- **Funding Achievement**: Secured project funding from national innovation programs
-- **Client Satisfaction**: Maintained high ratings across multiple projects
+### Recognition Metrics
+- **Academic Excellence**: 5 consecutive semesters of first position in class
+- **Professional Recognition**: Top Rated status on Upwork
+- **Funding Achievement**: national FYP funding secured from Ignite (National Technology Fund)
 
 ---
 

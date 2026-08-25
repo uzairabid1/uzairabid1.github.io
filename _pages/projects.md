@@ -115,7 +115,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/3.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -130,7 +130,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/4.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/4.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -145,7 +145,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/5.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -160,7 +160,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/6.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/6.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -175,16 +175,31 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/7.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/7.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
         <h3>BlogPilot AI - WordPress Automation using CrewAI Agents</h3>
         <span class="timeline">2025</span>
         </div>
-        <p>Developed an intelligent multi-agent content creation system using CrewAI that automates the entire blog writing workflow. Features four specialized AI agents for research, outlining, writing, and publishing, with seamless WordPress integration via REST API for automated content publishing.</p>
+        <p>Developed an intelligent multi-agent content creation system using CrewAI that automates the entire blog writing workflow. Features four specialized AI agents for research, outlining, writing, and publishing, with seamless WordPress integration via REST API for automated content publishing. Built for the Global AI Agents League hackathon.</p>
         <a href="https://github.com/uzairabid1/wordpress-content-generator-and-publisher-crewai"><button>View Project</button></a>
         <a href="https://www.youtube.com/watch?v=V-6mANoHE7M"><button>View Demo</button></a>
+        <a href="https://devpost.com/software/blogpilot-ai"><button>Devpost</button></a>
+    </div>
+</div>
+
+<div class="project0">
+    <div class="image-container0">
+        {% include figure.liquid loading="eager" path="assets/img/azure_ai_developer_hackathon.png" %}
+    </div>
+    <div class="project-details0">
+        <div class="heading">
+        <h3>Legal Hearing Summarizer</h3>
+        <span class="timeline">2025</span>
+        </div>
+        <p>Built a long-form legal transcript summarization system for the Azure AI Developer Hackathon. The pipeline processes court-hearing transcripts, identifies the key legal points across lengthy proceedings, and generates structured summaries for legal professionals using Azure AI services.</p>
+        <a href="https://devpost.com/software/legal-hearing-summarizer"><button>View Submission</button></a>
     </div>
 </div>
 
@@ -192,11 +207,11 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/8.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/8.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
-        <h3>Analysis of Media Posts</h3>
+        <h3>Mental Health Discourse Classification</h3>
         <span class="timeline">2023</span>
         </div>
         <p>Designed an NLP pipeline using scikit-learn to classify and analyze mental health related social media posts. The model identifies posts related to stress, anxiety, or depression, providing insight into online mental health discourse and supporting mental health awareness initiatives.</p>
@@ -206,7 +221,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/9.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/9.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">
@@ -220,7 +235,7 @@ html[data-theme="dark"] .project0:hover {
 
 <div class="project0">
     <div class="image-container0">
-        {% include figure.liquid loading="eager" path="assets/img/10.jpg" %}
+        {% include figure.liquid loading="eager" path="assets/img/10.png" %}
     </div>
     <div class="project-details0">
         <div class="heading">

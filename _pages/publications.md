@@ -9,54 +9,46 @@ nav_order: 4
 
 ## Publications & Preprints
 
-### Using Large Language Models to Study Consumer Behavior: Review Algorithm Effects on Restaurant Selection
-**Co-Author · In-Progress**
+### [1] Using Large Language Models to Study Consumer Behavior: Review Algorithm Effects on Restaurant Selection
+**U. Abid and B. Lim** &middot; Manuscript in preparation, 2026 &middot; *In progress*
 
-Working with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (former Prof. @ University of Kansas) on a research project that uses AI agents powered by GPT models to simulate realistic customer decision-making in restaurant choice scenarios. The study explores how different review presentation algorithms (highest rated vs. most recent) and restaurant positioning (high-end vs. casual) affect consumer behavior. The system includes intelligent bias detection, dynamic review supplementation, and detailed behavioral logging.
+Work with <a href='https://scholarworks.bwise.kr/hanyang/researcher-profile?ep=1216'>Dr. Boram Lim</a> (formerly University of Kansas) on an agent-based simulation framework in which GPT-powered agents make restaurant-choice decisions, enabling controlled experiments on consumer behavior at a scale that is infeasible with human subjects. The study uses a factorial design over review-presentation algorithms (highest-rated vs. most-recent) and restaurant positioning (high-end vs. casual) to isolate their effects on choice, with bias-detection, dynamic review supplementation, and structured behavioral logging of decision traces.
 
-**Keywords:** Large Language Models, Consumer Behavior, AI Agents, Decision Making, Restaurant Industry
+**Keywords:** Large Language Models, Agent-Based Simulation, Consumer Behavior, Experimental Design, Decision Making
 
 ---
 
-### Smart Shelf Advertising using Real-Time Product Segmentation and Interaction on Low-Cost Edge Devices
-**Co-Author · Preprint**
+### [2] Smart Shelf Advertising using Real-Time Product Segmentation and Interaction on Low-Cost Edge Devices
+**U. Abid et al.** &middot; Preprint, 2025
 
-Developed a real-time retail marketing system that intelligently detects product interaction and displays contextual advertisements on low-cost hardware. The system integrates Apriltag tracking, YOLOv8-based object segmentation, and Arduino-controlled lighting to detect when a product is picked and trigger the corresponding video ad. A custom YOLOv8 segmentation model trained on 3500+ images achieved 97.4% mAP@0.5, demonstrating robust real-time performance in retail deployments.
+A real-time retail system that detects product pick-up events and triggers contextual video advertisements, running end to end on low-cost edge hardware. A custom YOLOv8 segmentation model trained on a self-collected dataset of 3,500+ images reached 97.4% mAP@0.5 with real-time inference on constrained devices, and AprilTag-based tracking plus Arduino-controlled lighting were integrated into a single pipeline validated under varied shelf and lighting conditions.
 
-**Keywords:** Computer Vision, Edge Computing, Retail Technology, Object Detection, YOLOv8
+[Preprint PDF](https://www.researchgate.net/publication/394095306_Smart_Shelf_Advertising_using_Real-Time_Product_Segmentation_and_Interaction_on_Low-Cost_Edge_Devices)
+
+**Keywords:** Computer Vision, Edge Computing, Retail Technology, Object Segmentation, YOLOv8
 
 ---
 
 ## Research Experience
 
-### Simulation Study on Edge Cloud Traffic
-**Research Assistant**
+A fuller account of each project, including my specific contributions, is on the [Experiences]({{ '/experiences/' | relative_url }}) page.
 
-Assisted Engr. Muhammad Rehan Rasheed in developing a simulation project in Java, focusing on traffic management and performance analysis for edge cloud environments. The research involved analyzing network performance metrics, latency optimization, and resource allocation strategies in distributed edge computing systems.
-
-**Keywords:** Edge Computing, Traffic Management, Performance Analysis, Java Simulation
+- **LLM Agents for Consumer Behavior Research** &mdash; Co-Author, with Dr. Boram Lim (formerly University of Kansas). *Ongoing, remote.*
+- **Smart Shelf Advertising on Low-Cost Edge Devices** &mdash; Co-Author. *2024 &ndash; 2025, Karachi, Pakistan.*
+- **Simulation Study on Edge-Cloud Traffic** &mdash; Research Assistant to Engr. Muhammad Rehan Rasheed, Sir Syed University. Built a Java-based discrete simulation of edge-cloud environments to analyze traffic-management strategies and their effect on latency and throughput. *2023.*
 
 ---
 
 ## Research Interests
 
-My research interests span multiple domains within AI and computer science:
+- **Natural Language Processing** &mdash; large language models, text understanding, conversational systems
+- **Large Language Models and Agentic AI** &mdash; multi-agent systems, tool use, autonomous workflows
+- **LLM-based simulation of human behavior** &mdash; using agents as instruments for studying decision-making
+- **Computer Vision for edge deployment** &mdash; detection and segmentation under tight compute budgets
+- **Efficient training and inference** &mdash; PEFT (LoRA/QLoRA), 4/8-bit quantization, optimized serving
+- **Evaluation and reliability of LLM systems** &mdash; evaluation harnesses, LLM-as-judge, bias detection, grounding
 
-- **Natural Language Processing**: Large Language Models, conversational AI, text analysis
-- **Computer Vision**: Object detection, segmentation, real-time processing
-- **Agentic AI**: Multi-agent systems, autonomous decision-making, intelligent behavior simulation
-- **Edge Computing**: Real-time processing, resource optimization, distributed systems
-- **Human-Computer Interaction**: User behavior analysis, decision support systems
-
----
-
-## Future Research Directions
-
-I am actively pursuing research opportunities in:
-- **Multimodal AI Systems** that combine vision, language, and reasoning
-- **Responsible AI** development with focus on bias detection and mitigation
-- **Real-world AI Applications** in retail, healthcare, and education
-- **Efficient AI Models** for edge deployment and resource-constrained environments
+I am interested in building intelligent systems that understand language, learn from data, and act reliably in real-world settings. My goal for graduate study is to move from applied engineering toward rigorous research on how large language models can be evaluated, grounded, and used as instruments for studying human decision-making.
 
 ---
 
